@@ -118,3 +118,5 @@ Copilot Chat を使用して、提案されたソーシャル メディア キ�
     ```text
     How many social media campaign views did we have from September to December?
     ```
+
+[インデックスに戻る](https://microsoftlearning.github.io/MS-4021-Copilot-Immersion-Experience/)
