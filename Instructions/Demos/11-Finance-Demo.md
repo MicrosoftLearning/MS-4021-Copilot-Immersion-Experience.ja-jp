@@ -19,7 +19,7 @@ demo:
 
 - [EV_Charger_Sales_Analysis_v1.xlsx](https://github.com/MicrosoftLearning/MS-4021-Copilot-Immersion-Experience/raw/master/ResourceFiles/EV_Charger_Sales_Analysis_v1.xlsx)
 
-### Excel の Copilot  
+### Copilot in Excel  
 
 Copilot in Excel を使用して、売上データの分析、主要な傾向の特定、財務メトリックの計算を行います。
 
@@ -174,3 +174,5 @@ Copilot in Word を使用して、財務分析情報をチーム向けのメー�
     - より砕けた表現にする
 
 1. 完了したら、**[保持]** を選択できます。
+
+[インデックスに戻る](https://microsoftlearning.github.io/MS-4021-Copilot-Immersion-Experience/)

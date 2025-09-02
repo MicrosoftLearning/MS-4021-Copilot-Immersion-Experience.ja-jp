@@ -27,7 +27,7 @@ demo:
 
 1. ブラウザーを開き、[M365copilot.com](https://m365copilot.com/) に移動します。
 
-1. Web モードが選択されていることを確認します。
+1. [Web モード] が選択されていることを確認します。
 
     ![[Web モード] タブを示すスクリーンショット。](../Prompts/Media/web-mode.png)
 
@@ -65,8 +65,7 @@ demo:
 
 1. 開いたら、**[編集を可能にする]** を選択してから、[自動保存] をオンにします。 メッセージが表示されたら、自分の OneDrive アカウントを選択します。
 
-
-### Word の Copilot
+### Copilot in Word
 
 次に、これらの戦略を拡張し、それらを実装する方法に関する提案の下書きを作成するように Copilot に依頼します。
 
@@ -88,7 +87,7 @@ demo:
 
     > **トレーナーのヒント:** この手順を使用して、Copilot がどのように以前の出力に基づいて構築し、アイデアをまとまりのある提案に磨き上げているかを示します。
 
-### PowerPoint の Copilot
+### Copilot in PowerPoint
 
 1. ブラウザーの [PowerPoint.new](https://PowerPoint.new) から Microsoft PowerPoint を起動するか、デスクトップ アプリケーションを使用します。
 
