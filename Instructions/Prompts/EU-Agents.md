@@ -57,11 +57,13 @@ Microsoft 365 Copilot と Copilot Studio を使って簡単な**検索ベース�
 - 次のようなサンプル プロンプトを試します。  
 
    ```text
-   Explore possible AI solutions to help with [insert productivity issue]. Focus on retrieval-based approaches using Focus on retrieval-based approaches using Microsoft Copilot or Copilot Studio agents. Summarize two or three ways an agent could help me find, organize, or summarize information more efficiently.
+   Explore possible AI solutions to help with [insert productivity issue]. Focus on retrieval-based approaches using Microsoft Copilot or Copilot Studio agents. Summarize two or three ways an agent could help me find, organize, or summarize information more efficiently.
    ```  
 
-    > **ヒント:** ドキュメントのすばやい表示や、複数のソースからの更新の取得など、実用的で日常的なユース ケースから焦点を逸らさないようにします。  
-
+    > **ヒント:** ドキュメントのすばやい表示や、複数のソースからの更新の取得など、実用的で日常的なユース ケースから焦点を逸らさないようにします。
+  
+    > **注:** 研究者は、お客様の要求に応じて、完了するまでに 5 ~ 10 分かかる場合があります。 その応答は非常に詳細であるため、動作している間は、Copilot Chat で同じプロンプトを実行してみてください。 2 つの出力を比較するのは、各ツールがタスクにどのように近づくのかを確認する最適な方法です。
+    
 ### タスク 3:エージェントを構築してテストする  
 
 次に、課題に対処するための簡単な検索エージェントを **Copilot Studio** で作成します。  

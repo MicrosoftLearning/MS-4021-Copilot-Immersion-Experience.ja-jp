@@ -25,7 +25,7 @@ Copilot in Excel を使用して、売上データの分析、主要な傾向の
 
 1. Excel を起動してファイルを開く  
 
-1. (ブラウザーまたはデスクトップ アプリケーションの) Excel で **Finance_Sales_Analysis.xlsx** を開きます。  
+1. (ブラウザーまたはデスクトップ アプリケーションの) Excel で **EV_Charger_Sales_Analysis_v1.xlsx** を開きます。  
 
 1. **[製品別売上]** タブに移動します。  
 
