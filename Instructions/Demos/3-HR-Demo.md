@@ -31,7 +31,7 @@ demo:
 
 ## デモ
 
-### Word の Copilot
+### Copilot in Word
 
 まず、Copilot in Word に職務明細を生成するように依頼します。
 
@@ -76,7 +76,7 @@ demo:
 
 1. 必要に応じて、応答を Word 文書にエクスポートしてこの機能を強調表示するように Copilot Chat に依頼することができます。
 
-### Outlook の Copilot
+### Copilot in Outlook
 
 最後に、Copilot in Outlook を使用して、上位の候補者に関する採用チームへのメールの下書きを作成します。
 
@@ -89,7 +89,7 @@ demo:
 1. "**メールに書きたい内容**" プロンプト ウィンドウで、次のように入力します:
 
     ```text
-    Please draft an email to the hiring team to share that Nester Wilke and Patti Fernandez align best with the Senior Animation Designer role based on their qualifications. Include a recommendation to schedule interviews for these candidates and request feedback on next steps.
+    Please draft an email to the hiring team to share that Nestor Wilke and Patti Fernandez align best with the Senior Animation Designer role based on their qualifications. Include a recommendation to schedule interviews for these candidates and request feedback on next steps.
     ```
 
 [インデックスに戻る](https://microsoftlearning.github.io/MS-4021-Copilot-Immersion-Experience/)
