@@ -35,7 +35,7 @@ Copilot in Word を使用して、詳細な市場分析レポートの下書き�
 
 1. (Web ブラウザーまたはデスクトップ アプリケーションの) Word を開きます。
 
-1. **書きたい内容を記述してください**と表示されたプロンプト ボックスに、次のように入力します。
+1. **[Copilot で何についての下書きをしますか?]** プロンプト ボックスに、次のように入力します。
 
     ```text
     Create a Market Analysis report for Mystic Spice Premium Chai Tea using the attached files. Include the product description, market trend analysis, and a promotion plan for Latin America.
@@ -53,7 +53,7 @@ Copilot in Word を使用して、詳細な市場分析レポートの下書き�
     Draft a new section for social media campaigns to promote Mystic Spice Premium Chai Tea. Include a brief description of 2-3 campaign ideas, each with a unique focus. For each campaign, provide a tagline that reflects its theme and resonates with our target audience of young professionals and tea enthusiasts.
     ```
 
-1. この新しいドキュメントを **LATAM_Market_Analysis.docx** として保存します。
+1. [Copilot] ウィンドウで [保持する] を選択して、ドキュメントを Copilot の下書きから実際の Word 文書に変更します。 次に、この新しいドキュメントを **LATAM_Market_Analysis.docx** として保存します。
 
 ### Copilot Chat
 
@@ -113,7 +113,7 @@ Copilot Chat を使用して、提案されたソーシャル メディア キ�
     Can you show a correlation between social media engagement and sales?
     ```
 
-1. 次に、以下のプロンプトに入力します。
+1. 次に、以下のプロンプトを入力します。
 
     ```text
     How many social media campaign views did we have from September to December?
