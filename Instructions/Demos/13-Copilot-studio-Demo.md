@@ -1,15 +1,15 @@
 ---
 demo:
-  title: Copilot Studio を使用してエージェントを構築する
+  title: Copilot Studio ライトを使用してエージェントを構築する
 ---
 
 [インデックスに戻る](https://microsoftlearning.github.io/MS-4021-Copilot-Immersion-Experience/)
 
 ---
 
-# Copilot Chat を使用してエージェントを構築して発行する
+# Copilot Studio Lite を使用してエージェントを構築して発行する
 
-このデモでは、Copilot Chat から Copilot Studio を使って仮想アシスタントを構築し、Microsoft 365 Copilot にそれを発行する方法を見ていきます。
+このデモでは、Copilot Chat から Copilot Studio ライトを使って仮想アシスタントを構築し、Microsoft 365 Copilot にそれを発行する方法を見ていきます。
 
 ## デモ セットアップ
 
@@ -25,17 +25,17 @@ demo:
 
 ## 話題
 
-Copilot Studio を使うと、カスタム コパイロットを構築し、特定のプロジェクト、部署、またはナレッジ ベースに合わせて調整できます。 それらに個性を与え、境界を設定し、典拠に基づく高品質の応答が得られるよう、特定のドキュメントをフィードすることができます。
+Copilot Studio ライトを使うと、カスタム コパイロットを構築し、特定のプロジェクト、部署、またはナレッジ ベースに合わせて調整できます。 それらに個性を与え、境界を設定し、典拠に基づく高品質の応答が得られるよう、特定のドキュメントをフィードすることができます。
 
 このデモでは、ReleCloud ドローン配送プロジェクト用の仮想アシスタントを作成します。 アシスタントは、ユーザーがアップロードしたすべての情報を把握しており、チームの質問に回答して、時間を節約し、生産性を向上させるのに役立ちます。
 
 ## デモの手順
 
-### ステップ 1 – Copilot Studio に移動する
+### ステップ 1 – Copilot Studio ライトに移動する
 
-1. [https://m365.cloud.microsoft/chat](https://m365.cloud.microsoft/chat) に移動し、右側のレールで **[エージェントの作成]** を選びます。
+1. [https://m365.cloud.microsoft/chat](https://m365.cloud.microsoft/chat) に移動し、ナビゲーション ウィンドウで **[エージェントの作成]** を選択します。
 
-    ![[エージェントの作成] リンクを示すスクリーンショット。](../Prompts/media/create-agent.png)
+    ![[エージェントの作成] リンクを示すスクリーンショット。](../Prompts/Media/create-agent.png)
 
 1. 資格情報を使用してサインインします。
 
@@ -73,18 +73,18 @@ Copilot Studio を使うと、カスタム コパイロットを構築し、特�
     Friendly and professional
     ```
 
-> **重要:** 環境によっては、これらのオプションの一部を求められない場合があります。 指定を求められない場合は、Copilot Studio の **[構成]** タブを使ってこの情報を追加できます。
+> **重要:** 環境によっては、これらのオプションの一部を求められない場合があります。 指定を求められない場合は、Copilot Studio ライトの **[構成]** タブを使ってこの情報を追加できます。
 
 ### ステップ 3 – エージェントを構成する
 
-1. **[構成]** をクリックしてエージェント エディターを開きます。
+1. **[構成]** を選択してエージェント エディターを開きます。
 1. **[指示]** セクションを確認し、必要に応じて更新します。
 
     ```text
     Your name is Drone Delivery Project Manager Assistant. You serve as a virtual project manager for the ReleCloud drone delivery project, with comprehensive knowledge from shared documents. Be clear and concise, avoiding long answers. If the answer is unknown, refer to the drone delivery project manager.
     ```
 
-1. **[ナレッジ]** セクションまで下にスクロールし、**[名前で検索するか、または URL を入力します]** テキストをクリックします。 **[ファイル]** を選び、エージェントのナレッジ ベースに次のドキュメントを追加します。
+1. **[ナレッジ]** セクションまで下にスクロールし、**[名前で検索するか、または URL を入力します]** テキストを選びます。 **[ファイル]** を選び、エージェントのナレッジ ベースに次のドキュメントを追加します。
 
     - **Delivery Drone Press Release.docx**
     - **Delivery Drone Troubleshooting.docx**
@@ -109,7 +109,7 @@ Copilot Studio を使うと、カスタム コパイロットを構築し、特�
 
 ### ステップ 5 – 発行して共有する
 
-1. **[作成]** をクリックしてエージェントを発行します。
+1. **[作成]** を選んで、エージェントを発行します。
 1. **[共有設定の変更]** を選んで、**[組織に所属する全員]** を選びます。
 1. 簡単にアクセスできるように、共有のリンクをコピーして Teams チャットに貼り付けます。
 
