@@ -19,9 +19,9 @@ demo:
 
 ### Copilot Chat
 
-まず、AI 法と、その法の Contoso の AI 採用ツールに対する潜在的な影響を調査してみましょう。
+まず、欧州 AI 規制法と、Contoso の AI 採用ツールに対するその潜在的な影響を調査してみましょう。
 
-1. ブラウザーを開き、[M365copilot.com](https://m365copilot.com/) に移動します。
+1. ブラウザーを開き、[M365Copilot.com](https://m365Copilot.com/) に移動します。
 
 1. **[Web モード]** が選択されていることを確認します。
 
@@ -63,7 +63,7 @@ demo:
 
     ![リンクを共有します。](../Demos/Media/share-menu-with-copy-link-9fd1c60a.png)
 
-### Word の Copilot
+### Copilot in Word
 
 次に、Contoso のリーダー陣のために法的リスクと推奨事項を説明した概要の下書きを作成します。
 
@@ -91,7 +91,7 @@ demo:
 
 1. ドキュメントを確認して完成したら、次のデモで使用するために、クリップボードに**生成された概要をコピー**します。
 
-### Outlook の Copilot
+### Copilot in Outlook
 
 最後に、調査結果と次の手順を要約した Contoso のリーダー陣へのメールの下書きを作成します。
 

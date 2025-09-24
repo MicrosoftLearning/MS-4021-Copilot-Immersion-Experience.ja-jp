@@ -29,7 +29,7 @@ IT インフラストラクチャ マネージャーとして、あなたは新�
 
 1. ブラウザーを開き、[M365copilot.com](https://m365copilot.com/) に移動します。
 
-1. Web モードが選択されていることを確認します。
+1. [Web モード] が選択されていることを確認します。
 
     ![[Web モード] タブを示すスクリーンショット。](../Prompts/Media/web-mode.png)
 
@@ -57,17 +57,17 @@ IT インフラストラクチャ マネージャーとして、あなたは新�
     Please export the project plan to a Word document.
     ```
 
-1. 生成された Word 文書を **Project_Implementation_Plan.docx** として保存します。 ドキュメントから共有 URL をコピーします (自動保存を有効にし、メッセージが表示されたら OneDrive アカウントを選択します)。
+1. Copilot が表示する新しく作成されたファイルへのリンクを選択して、ダウンロード フォルダーにダウンロードします。 ファイルを OneDrive フォルダーに移動して、開きます。 ドキュメントから共有 URL をコピーします (自動保存を有効にし、メッセージが表示されたら OneDrive アカウントを選択します)。
 
     ![リンクを共有します。](../Demos/Media/share-menu-with-copy-link-9fd1c60a.png)
 
-### Word の Copilot
+### Copilot in Word
 
 次に、これらの戦略を拡張し、それらを実装する方法に関する提案の下書きを作成するように Copilot に依頼します。
 
 1. (Web ブラウザーまたはデスクトップ アプリケーションの) Word を開きます。
 
-1. **書きたい内容を記述してください**と表示されたプロンプト ボックスに、次のように入力します。
+1. **[Copilot で何についての下書きをしますか?]** プロンプト ボックスに、次のように入力します。
 
     ```text
     Using the Contoso [/CipherGuard Product Specification.docx] and the 'Project Implementation Plan' template provided in [paste in link to Project_Implementation_Plan.docx], draft a comprehensive project implementation plan for deploying Contoso CipherGuard. Ensure the plan aligns with the product specifications and follows the structure outlined in the template.
@@ -84,7 +84,7 @@ IT インフラストラクチャ マネージャーとして、あなたは新�
 
     ![リンクを共有します。](../Demos/Media/share-menu-with-copy-link-9fd1c60a.png)
 
-### PowerPoint の Copilot
+### Copilot in PowerPoint
 
 ここでは、Copilot を使用して、Contoso CipherGuard 製品を実装する新しい提案に基づいて PowerPoint プレゼンテーションを生成します。
 

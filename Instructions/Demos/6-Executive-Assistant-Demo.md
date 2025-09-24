@@ -23,7 +23,7 @@ demo:
 
 ## デモの手順
 
-### Word の Copilot
+### Copilot in Word
 
 まず、最新の収益に関する電話会議のトランスクリプトを確認し、担当する役員にとって重要なポイントを要約します。
 
@@ -35,7 +35,7 @@ demo:
 
     ![Word の Copilot アイコン。](../Demos/Media/Copilot-in-word-ribbon.png)
 
-1. [Copilot] ペインが開きます。 "**このドキュメントについて何でも質問してください**" と表示されている場所に、次のプロンプトを入力します。
+1. [Copilot] ペインが開きます。 **[+ Copilot で何についての下書きをしますか?]** と表示されている箇所に次のプロンプトを入力します。
 
     ```text
     Summarize the key points from the Microsoft FY24 Second Quarter Earnings Conference Call.
@@ -48,7 +48,7 @@ demo:
     ```
 
    - Copilot が各箇条書きの参照をどのように組み込んで、特定のセクションにすばやく移動できるようにするかを示します。  
-   - 1 つの参照をクリックして、ドキュメント内の関連コンテンツにすばやくアクセスできることを実演します。
+   - 1 つの参照をクリックして、Copilot がドキュメント内の関連コンテンツにすばやくアクセスできることを実演します。
 
 1. 詳細なレポートを作成するには、Copilot に次のように依頼します。
 
@@ -67,7 +67,6 @@ demo:
 1. Copilot が分析を完了したら、**Copy** アイコンを選択して、結果を次の手順のために保存します。
 
     ![結果をコピーします。](../Demos/Media/Copilot-in-word-copy-results.png)
-
 
 ### Copilot Chat
 
