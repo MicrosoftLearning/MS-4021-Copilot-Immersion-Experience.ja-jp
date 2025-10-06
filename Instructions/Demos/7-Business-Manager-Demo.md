@@ -23,11 +23,13 @@ demo:
 
 ## デモの手順
 
-### Excel の Copilot
+### Copilot in Excel
 
 1. (ブラウザーまたはデスクトップ アプリケーションで) Excel を起動し、**EV_Charger_Sales_Analysis_v1.xlsx** ファイルを開きます。
 
 1. Excel ファイルの **[製品別売上] タブに移動します。**
+
+1. Excel リボンから **[Copilot]** を選択し、**[アプリ スキル]** を選択して [Copilot] ウィンドウを開きます。
 
 1. Copilot を使用して毎月の収益を計算する:  
 
@@ -115,7 +117,7 @@ demo:
     Based on this information, suggest 5 strategic questions to ask the product team during our meeting tomorrow. Focus on identifying root causes, assessing risks, and brainstorming potential improvements.
     ```
 
-### Outlook の Copilot
+### Copilot in Outlook
 
 このデモでは、Copilot in Outlook を使用して、EV 充電器の製品ラインを担当するプロジェクト リーダーとの会議を設けて可能な解決策について話し合います。
 
