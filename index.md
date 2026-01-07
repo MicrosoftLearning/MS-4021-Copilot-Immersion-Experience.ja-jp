@@ -14,6 +14,14 @@ layout: home
 {% for activity in demos %}| [{{ activity.demo.title }}]({{ site.github.url }}{{ activity.url }}) |
 {% endfor %}
 
+## Exec デモ
+
+{% assign edemos = site.pages | where_exp:"page", "page.url contains '/Instructions/Exec'" %}
+| Exec デモ |
+| --- |
+{% for activity in edemos  %}| [{{ activity.demo.title }}]({{ site.github.url }}{{ activity.url }}) |
+{% endfor %}
+
 ## 没入体験のサンプル プロンプト
 
 #### [幹部](https://learn.microsoft.com/en-us/training/modules/envision-new-ideas-with-microsoft-365-copilot/) (Microsoft Learn へのリダイレクト)
