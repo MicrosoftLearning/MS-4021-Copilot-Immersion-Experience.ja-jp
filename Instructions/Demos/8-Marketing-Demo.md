@@ -97,7 +97,7 @@ Copilot Chat を使用して、提案されたソーシャル メディア キ�
 
 ### Copilot in Excel
 
-1. [Contoso_Chai_Tea_market_trends_2023.xlsx](https://github.com/MicrosoftLearning/MS-4021-Copilot-Immersion-Experience/raw/master/Contoso_Chai_Tea_market_trends_2023.xlsx) をダウンロードしてあることを確認し、このドキュメントを (Web またはデスクトップ アプリケーションの) Excel で開きます。
+1. [Contoso_Chai_Tea_social_marketing_trends.xlsx](https://github.com/MicrosoftLearning/MS-4021-Copilot-Immersion-Experience/raw/master/ResourceFiles/Contoso_Chai_Tea_social_marketing_trends.xlsx) をダウンロードしてあることを確認し、ドキュメントを (Web またはデスクトップ アプリケーションの) Excel で開きます。
 
 1. Excel リボンから **[Copilot]** を選択し、**[アプリ スキル]** を選択して [Copilot] ウィンドウを開きます。
 
