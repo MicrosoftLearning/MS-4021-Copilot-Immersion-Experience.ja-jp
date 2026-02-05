@@ -107,12 +107,3 @@ Then write an 'opportunity to accelerate AI impact' statement showing how closin
 ``` text
 What is the single highest-impact action I could lead in the next 90 days to close this AI gap and accelerate measurable business value?
 ```
-
-## Final Outcome
-
-この演習を終了すると、次のものが得られます。
-
-- AI に対する明確な 12 か月の抱負
-- 組織の AI の準備状況のスナップショット
-- 定義された AI のギャップと機会に関するステートメント
-- 自分が導いたり、スポンサーになったりすることができる具体的なアクション
