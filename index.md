@@ -51,3 +51,5 @@ layout: home
 #### [エージェント - 役員](https://microsoftlearning.github.io/MS-4021-Copilot-Immersion-Experience/Instructions/Prompts/Exec-Agents.html)
 
 #### [AI に対するエグゼクティブの抱負](https://microsoftlearning.github.io/MS-4021-Copilot-Immersion-Experience/Instructions/Prompts/Exec-ai-aspiration.html)
+
+#### [エグゼクティブ AI Lighthouse](https://microsoftlearning.github.io/MS-4021-Copilot-Immersion-Experience/Instructions/Prompts/Exec-ai-lighthouse.html)
