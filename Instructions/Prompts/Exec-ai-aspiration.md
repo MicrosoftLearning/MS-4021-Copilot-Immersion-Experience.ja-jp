@@ -34,9 +34,10 @@ AI に対する 12 か月の抱負を定義し、組織の準備状況を評価�
     **サンプル プロンプト:**
   
     ``` text
-    From my role as [insert role], what are the top 1–2 business priorities that AI could materially impact over the next 12 months? Focus on outcomes, not technology.
+    For my organization, what are the top 1–2 business priorities that AI could materially impact over the next 12 months? Focus on measurable outcomes, not specific technologies.
     ```
-
+    > **ヒント**:これをご自分の個々のコンテキストに合わせて調整するには、**"自分の組織の場合、"** を、**"自分のロールの場合 [ロール名を挿入]"** に置き換えます
+    > 
     > Word、OneNote、または Copilot ページの**応答をキャプチャ**します。 このメモはタスク 3 で使用します。
 
 ### 2. 成功がどのようなものかを定義する
