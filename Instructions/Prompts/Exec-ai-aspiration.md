@@ -34,11 +34,20 @@ task:
     **サンプル プロンプト:**
   
     ``` text
-    For my organization, what are the top 1–2 business priorities that AI could materially impact over the next 12 months? Focus on measurable outcomes, not specific technologies.
+    For my [insert business unit, function, or organization], identify the top 2–3 business challenges or opportunities where AI could materially drive value over the next 12 months.
+    
+    Focus on organization-level outcomes — not individual productivity.
+    
+    For each opportunity, capture:
+    -Title
+    -Business problem or opportunity
+    -Why it matters
+    
+    Then define:
+    -1–2 measurable success metrics 
+    -A clear AI aspiration
     ```
 
-    > **ヒント**:これをご自分の個々のコンテキストに合わせて調整するには、**"自分の組織の場合、"** を、**"自分のロールの場合 [ロール名を挿入]"** に置き換えます
-    > 
     > Word、OneNote、または Copilot ページの**応答をキャプチャ**します。 これらのメモは、次の手順で使用します。
 
 ### 2. 成功がどのようなものかを定義する
