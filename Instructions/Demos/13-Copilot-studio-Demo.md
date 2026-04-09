@@ -15,11 +15,11 @@ demo:
 
 これらのデモを最後まで行うには、次のファイルをダウンロードする必要があります。
 
-- [**Delivery Drone Press Release.docx**](https://github.com/MicrosoftLearning/MS-4008-Microsoft-365-Copilot-Interactive-Experience-for-Executives/raw/master/ResourceFiles/Delivery_Drone_Press_Release.docx)
-- [**Delivery Drone Troubleshooting.docx**](https://github.com/MicrosoftLearning/MS-4008-Microsoft-365-Copilot-Interactive-Experience-for-Executives/raw/master/ResourceFiles/Delivery_Drone_Troubleshooting.docx)
-- [**Delivery Drone SOP.docx**](https://github.com/MicrosoftLearning/MS-4008-Microsoft-365-Copilot-Interactive-Experience-for-Executives/raw/master/ResourceFiles/Delivery_Drone_SOP.docx)
-- [**Upselling Opportunities.docx**](https://github.com/MicrosoftLearning/MS-4008-Microsoft-365-Copilot-Interactive-Experience-for-Executives/raw/master/ResourceFiles/Upselling_Opportunities.docx)
-- [**Delivery Drone FAQ.docx**](https://github.com/MicrosoftLearning/MS-4008-Microsoft-365-Copilot-Interactive-Experience-for-Executives/raw/master/ResourceFiles/Delivery_Drone_FAQ.docx)
+- [**Delivery Drone Press Release.docx**](https://github.com/MicrosoftLearning/MS-4021-Copilot-Immersion-Experience/raw/refs/heads/master/ResourceFiles/Delivery_Drone_Press_Release.docx)
+- [**Delivery Drone Troubleshooting.docx**](https://github.com/MicrosoftLearning/MS-4021-Copilot-Immersion-Experience/raw/refs/heads/master/ResourceFiles/Delivery_Drone_Troubleshooting.docx)
+- [**Delivery Drone SOP.docx**](https://github.com/MicrosoftLearning/MS-4021-Copilot-Immersion-Experience/raw/refs/heads/master/ResourceFiles/Delivery_Drone_SOP.docx)
+- [**Upselling Opportunities.docx**](https://github.com/MicrosoftLearning/MS-4021-Copilot-Immersion-Experience/raw/refs/heads/master/ResourceFiles/Upselling_Opportunities.docx)
+- [**Delivery Drone FAQ.docx**](https://github.com/MicrosoftLearning/MS-4021-Copilot-Immersion-Experience/raw/refs/heads/master/ResourceFiles/Delivery_Drone_FAQ.docx)
 
 > **ヒント:** デモを行う前に、デモ環境に SharePoint サイトを作成してすべてのファイルを格納すると、簡単にアクセスできます。 または、ファイルをローカル環境に保存し、**/** を使ってプロンプトで直接参照することもできます。
 
