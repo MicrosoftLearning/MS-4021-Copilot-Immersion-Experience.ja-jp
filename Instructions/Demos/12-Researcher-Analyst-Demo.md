@@ -14,13 +14,13 @@ demo:
 
 ## デモ セットアップ
 
-これらのデモを最後まで行うには、必要なすべてのファイルとリソースを含む[Researcher and Analyst Demo - Content Pack](https://github.com/MicrosoftLearning/MS-4021-Copilot-Immersion-Experience/raw/refs/heads/master/ResourceFiles/Researcher_and_Analyst_Demo_Content_Pack.zip) をダウンロードする必要があります。  
+これらのデモを最後まで行うには、必要なすべてのファイルとリソースを含む [Researcher and Analyst Demo - Content Pack](https://github.com/MicrosoftLearning/MS-4021-Copilot-Immersion-Experience/raw/refs/heads/master/ResourceFiles/Researcher_and_Analyst_Demo_Content_Pack.zip) をダウンロードする必要があります。  
 
 > **ヒント:** デモを行う前に、デモ環境に SharePoint サイトを作成してすべてのファイルを格納すると、簡単にアクセスできます。 または、ファイルをローカル環境に保存し、**/** を使ってプロンプトで直接参照することもできます。  
 
 これらのエージェントにアクセスするには:  
 
-- [m365.cloud.microsoft](https://m365.cloud.microsoft) から**Copilot アプリ**を開きます。  
+- [m365.cloud.microsoft](https://m365.cloud.microsoft) から **Copilot アプリ**を開きます。  
 - ナビゲーション ウィンドウで **[リサーチ ツール]** または **[アナリスト]** を選びます。  
 
 > **注:**  典拠とする分析情報を得るには、リサーチ ツールとアナリストで内部ファイル (SharePoint/OneDrive) を参照する必要があります。
@@ -58,7 +58,7 @@ demo:
 1. `/` (SharePoint/OneDrive を指します) を使って参照ファイルを添付します。  
 
    - **/SprintCycle Charger Product Launch.docx**  
-   - *(省略可能)***/Contoso - PedalPerks GTM Plan.docx**  
+   - *(省略可能)* **/Contoso - PedalPerks GTM Plan.docx**  
 
 1. **送信**を選択します。  
 
@@ -87,9 +87,9 @@ demo:
 
 1. **+** を使ってファイルを添付します。  
 
-   - **BoulderEV ebike Internal Market Forecast.xlsx**  
+    - **BoulderEV ebike Internal Market Forecast.xlsx**  
 
-    ![アナリストでの添付ファイルを示すスクリーンショット。](../Prompts/Media/Analyst-Attach-Files.png)  
+    ![Copilot Chatの [コンテンツの追加]。](../Demos/Media/Upload-content.png)
 
 1. **[送信]** をクリックします。  
 
