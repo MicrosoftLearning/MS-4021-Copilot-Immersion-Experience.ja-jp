@@ -67,7 +67,7 @@ Analyze [specific legal topic] by summarizing its key provisions, potential risk
 **手順**:
 
 - ブラウザーの [word.new](https://word.new) から Microsoft Word を起動するか、デスクトップ アプリケーションを使用します。  
-- "**書きたい内容を記述してください**" と表示された場所にプロンプトを入力します。  
+- **"Copilot で下書きしたい内容を記述してください"** と表示された場所にプロンプトを入力します。  
 
     ![Copilot in Word を示すスクリーンショット。](../Prompts/Media/draft-with-copilot.png)  
 

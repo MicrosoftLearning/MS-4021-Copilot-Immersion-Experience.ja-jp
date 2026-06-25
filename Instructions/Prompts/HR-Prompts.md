@@ -59,7 +59,7 @@ Using the insights from Task 1, create a job description template for [software 
 **手順**:
 
 - ブラウザーから Microsoft Word を起動 (アドレス バーに「[word.new](https://word.new)」と入力) するか、デスクトップ アプリケーションを使用します。
-- "**書きたい内容を記述してください**" と表示された場所にプロンプトを入力します。
+- **"Copilot で下書きしたい内容を記述してください"** と表示された場所にプロンプトを入力します。
 
     ![Copilot in Word を示すスクリーンショット。](../Prompts/Media/draft-with-copilot.png)
 

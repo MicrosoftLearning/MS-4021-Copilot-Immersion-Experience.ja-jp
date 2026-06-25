@@ -7,9 +7,9 @@ demo:
 
 # 運用のデモ
 
-## シナリオ
+**シナリオ:**
 
-あなたは Contoso の 運用マネージャーで、ベンダー調達とプロジェクト実行を担当しています。 あなたの目標は、過去の RFP を確認し、主要な選択基準を抽出し、今度のイニシアチブの新しい RFP の下書きを作成することです。
+あなたは Contoso の運用マネージャーで、ベンダー調達とプロジェクトの実行を担当しています。 Copilot を使用して、実際に重要な条件に対して完成した RFP をマイニングし、Contoso テンプレートを使用して新しいプロジェクト ガイドラインから新しい RFP を下書きし、それを 1 つにまとめて候補となるサプライヤーに送信します。
 
 ## デモ セットアップ
 
@@ -27,17 +27,19 @@ demo:
 
 ## デモ
 
-### Word の Copilot
+### Copilot in Word
 
-まず、Copilot in Word に提案依頼書 (RFP) に関する質問をいくつかします。
+まず、Copilot in Word に提案依頼書 (RFP) に関していくつか質問します。
 
 1. (Web ブラウザーまたはデスクトップ アプリケーションの) Word を開きます。
-1
+
 1. ドキュメント [Contoso_Completed_RFP.docx](https://github.com/MicrosoftLearning/MS-4021-Copilot-Immersion-Experience/raw/master/ResourceFiles/Contoso_Completed_RFP.docx) を開きます。
 
-1. Word リボンで Copilot アイコンを選択して、[チャット] ペインを開きます。
+1. 文書の右下に表示される **[Copilot] アイコン**を選択します。
 
-    ![作業モード タブを示すスクリーンショット。](../Demos/Media/copilot-ribbon-word.png)
+    ![Word の Copilot アイコン。](../Demos/Media/Open-Copilot-in-Word.png)
+
+1. [Copilot] ペインで **[編集]** モードから **[チャット]** モードに切り替えます。
 
 1. [チャット] ペインで、プロンプトを選択または入力します。
 
@@ -51,19 +53,23 @@ demo:
    Analyze this document and generate a categorized list of required items needed to create an RFP.
    ```
 
+1. **編集モード**に切り替えます
+
+    ![[編集を許可する] が選択されています。](../Demos/Media/allow-editing.png)
+
 1. 次に、次のように入力して RFP テンプレートを作成するように Copilot に依頼します。
 
    ```text
    Analyze this document and create an RFP template based on the content.
    ```
 
-    > **注:** 次のデモでは事前に作成されたテンプレート ドキュメントを使用するので、生成されたコンテンツをコピーする必要はありません。 ただし、対象者に関係がある場合は、Copilot の応答をコピーしたりドキュメントに挿入したりする方法を紹介できます。
+    > **注:** これは Copilot が完成した RFP を基に、ゼロからテンプレートを作成できることを示しています。 次のセクションでは、時間を節約するために、この出力をコピーせずに、洗練された事前構築済みの Contoso テンプレートに切り替えます。
 
 ### Copilot Chat
 
-これで RFP ドキュメントを要約し、RFP テンプレートを作成したので、Copilot Chat を使用して、新しい RFP のプロジェクト要件を要約しましょう。
+これで RFP ドキュメントを要約し、Copilot でテンプレートが作成されるしくみを確認したので、Copilot Chat を使用して、新しい RFP のプロジェクト要件を要約しましょう。
 
-1. ブラウザーを開き、[M365copilot.com](https://m365copilot.com/) に移動します。  
+1. ブラウザーを開き、[M365copilot.com](https://m365copilot.com/) に移動します。
 
 1. **[Web モード]** が選択されていることを確認します。
 
@@ -89,11 +95,13 @@ demo:
    Using the project requirements outlined above, draft an RFP using the following template: [Contoso_RFP_Template.docx].
    ```
 
-    > **注:** 角かっこは、ドキュメントが参照されていることを示します。
+    > **注:** 角かっこは、ドキュメントが参照されていることを示します。 こちらのリンクを使用します。[Contoso_RFP_Template.docx](https://github.com/MicrosoftLearning/MS-4021-Copilot-Immersion-Experience/raw/master/ResourceFiles/Contoso_RFP_Template.docx)
 
 1. **生成された RFP** をクリップボードにコピーして、次のデモで使用できるようにします。
 
-1. 必要に応じて、生成された RFP を Word 文書にエクスポートするように Copilot に依頼します。
+1. 必要に応じて、応答を直接 Word にエクスポートします。 Copilot の応答の一番下で **[その他のオプション (...)]** メニューを選択し、**[Word にエクスポート]** を選択します。
+
+    ![Copilot Chat の応答メニューの [Word にエクスポート] のオプション。](../Demos/Media/export-to-word.png)
 
 ### Copilot in Outlook
 
@@ -103,18 +111,24 @@ demo:
 
 1. **[新しいメール]** を選択します。
 
-1. リボンの **[Copilot]** を選択します。 ドロップダウン メニューから **[Copilot で下書き]** を選択します。
+1. リボンの右側にある **[Copilot]** アイコンを選択します。
 
-1. "**メールに書きたい内容**" プロンプト ウィンドウで、次のように入力します。
+1. **[Copilot で編集]** が有効になっていることを確認します。
+
+    ![Outlook の [Copilot で編集] トグル。](../Demos/Media/edit-with-copilot-outlook.png)
+
+1. 次のプロンプトを入力します。
 
    ```text
    Draft an email to potential suppliers summarizing the RFP below:
 
-   [paste contents of RFP]
+   [paste the RFP contents, or type / to reference the Word document you exported in the previous step]
    ```
 
-    > **注:** 前のデモからコピーした RFP コンテンツを貼り付けます。
+1. 下書きが生成されたら、トーン、長さ、または丁寧さのレベルを自由に調整できます。
 
-1. 下書きが生成されたら、**調節**機能を使用して、トーン、長さ、または形式レベルを変更できます。
+## 重要なポイント
+
+1 つのワークフローで、完全な RFP ループを最初から最後まで実行しました。**Copilot in Word** を使用して完全な RFP から要件と選択条件を抽出し、**Copilot Chat** を使用して新しいプロジェクト ガイドラインを Contoso テンプレートを基に洗練された新しい RFP に変換し、**Copilot in Outlook** を使用して適切なトーンでサプライヤーに送信しました。 通常は数日間にわたるレビュー、下書き作成、メールのやり取りが 1 つの一元的なセッションに凝縮されます。
 
 [インデックスに戻る](https://microsoftlearning.github.io/MS-4021-Copilot-Immersion-Experience/)

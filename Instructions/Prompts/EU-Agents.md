@@ -5,13 +5,13 @@ task:
 
 ## イマージョン エクスペリエンス – エージェント (ビジネス ユーザー)
 
-Microsoft 365 Copilot と Copilot Studio を使って簡単な**検索ベースのエージェント**を設計すると、日常の生産性の課題の解決にどのように役立つかについて説明します。 この簡潔な演習では、一般的な問題を特定し、AI がどのように役立つかを調べてから、簡単なエージェントを作成してテストする手順を見ていきます。  
+Microsoft 365 Copilot とエージェント ビルダーを使用して単純な**検索ベースのエージェント**を設計すると、日常の生産性に関する課題の解決にどのように役立つかについて説明します。 この簡潔な演習では、一般的な問題を特定し、AI がどのように役立つかを調べてから、簡単なエージェントを作成してテストする手順を見ていきます。  
 
 次の 3 つのタスクを実行します。
 
 - 生産性の問題を特定する  
 - AI が検索と整理にどのように役立つかを調べる  
-- **Copilot Studio** で簡単なエージェントを構築してテストする  
+- **エージェント ビルダー **を使用して単純なエージェントを構築し、テストする  
 
 > **注:** 作業を始めるのに役立つサンプル プロンプトが提供されており、状況に合わせて自由にカスタマイズできます。  
 >
@@ -57,7 +57,7 @@ Microsoft 365 Copilot と Copilot Studio を使って簡単な**検索ベース�
 - 次のようなサンプル プロンプトを試します。  
 
    ```text
-   Explore possible AI solutions to help with [insert productivity issue]. Focus on retrieval-based approaches using Microsoft Copilot or Copilot Studio agents. Summarize two or three ways an agent could help me find, organize, or summarize information more efficiently.
+   Explore possible AI solutions to help with [insert productivity issue]. Focus on retrieval-based approaches using Microsoft Copilot or Agent builder agents. Summarize two or three ways an agent could help me find, organize, or summarize information more efficiently.
    ```  
 
     > **ヒント:** ドキュメントのすばやい表示や、複数のソースからの更新の取得など、実用的で日常的なユース ケースから焦点を逸らさないようにします。
@@ -66,15 +66,15 @@ Microsoft 365 Copilot と Copilot Studio を使って簡単な**検索ベース�
 
 ### タスク 3:エージェントを構築してテストする  
 
-次に、課題に対処するための簡単な検索エージェントを **Copilot Studio ライト**で作成します。  
+次に、課題に対処するための単純な検索エージェントを**エージェント ビルダー**で作成します。  
 
 **手順**:  
 
-1. **Copilot Chat** のメニューで、**[エージェントの作成]** を選びます。
+1. **Copilot Chat** メニューで、ナビゲーション ペインから **[新しいエージェント]** を選択してエージェント ビルダーを開きます。
 
-   ![[エージェントの作成] リンクを示すスクリーンショット。](../Prompts/Media/create-agent.png)  
+    ![[新しいエージェント] リンクを示すスクリーンショット。](../Demos/Media/New-agent.png)
 
-1. **[説明]** タブで、エージェントの役割を下書きします。 次に例を示します。  
+1. **[作成したいエージェントについて説明してください]** プロンプト ボックスで、エージェントの役割を下書きします。 次に例を示します。  
 
    ```text
    You’re a virtual assistant that helps me with [key task]. Be concise and always reference my recent files or resources when possible.
@@ -86,7 +86,7 @@ Microsoft 365 Copilot と Copilot Studio を使って簡単な**検索ベース�
 
     ![エージェント ビルダーのナレッジ ソース セクションを示すスクリーンショット。](../Prompts/Media/knowledge-sources.png)
 
-1. **[テスト]** ペインを使ってエージェントをテストし、必要に応じて調整します。  
+1. **[プレビュー]** ペインを使用してエージェントをテストし、必要に応じて調整します。  
 1. **[作成]** を選んでエージェントを発行し、使い始めます。  
 
 > **ヒント:** 最近のプロジェクト ファイルを見つけるような非常に簡単なエージェントでも、日々の作業での検索の威力を示すことができます。

@@ -5,14 +5,14 @@ task:
 
 ## イマージョン エクスペリエンス – エージェント (エグゼクティブ)
 
-Microsoft 365 Copilot と Copilot Studio を使って、単純な**検索ベースのエージェント**を設計することで、実際の作業に関連する課題にどのように対処できるかを調べます。 この演習では、問題を特定し、それを分析して、AI が役立つ可能性のある場所を探してから、それを解決するための概念的エージェントを作成する方法を見ていきます。  
+Microsoft 365 Copilot とエージェント ビルダーを使用して、単純な**検索ベースのエージェント**を設計すると、実際の作業上の課題にどのように対処できるかを調べます。 この演習では、問題を特定し、それを分析して、AI が役立つ可能性のある場所を探してから、それを解決するための概念的エージェントを作成する方法を見ていきます。  
 
 次の 4 つのタスクを実行します。
 
 - 作業に関連する問題を特定する  
 - 問題を分解して AI が役に立つ可能性のある場所を調べる  
 - **リサーチ ツール**を使ってインサイトとソリューションのアイデアを明らかにする  
-- **Copilot Studio** で検索ベースのエージェントを概念化してモックアップする  
+- **エージェント ビルダー** で検索ベースのエージェントを概念化してモックアップする  
 
 > **注:** 作業を始めるのに役立つサンプル プロンプトが提供されており、状況に合わせて自由にカスタマイズできます。 
 >
@@ -63,7 +63,7 @@ Break down the problem of [insert challenge]. Identify root causes, pain points,
 
 ### タスク 3:リサーチ ツールを使って AI ソリューションのアイデアを調べる
 
-**リサーチ ツール エージェント**を使って、Copilot やエージェントがどのように役立つかを確認します。 タスクの自動化ではなく、知識を検索、整理、または要約するソリューションに焦点を当てます。 
+**リサーチ ツール エージェント**を使って、Copilot やエージェントがどのように役立つかを確認します。 タスクの自動化ではなく、知識を検索、整理、または要約するソリューションに焦点を当てます。
 
 **手順**:
 
@@ -75,7 +75,7 @@ Break down the problem of [insert challenge]. Identify root causes, pain points,
     **サンプル プロンプト (リサーチ ツール エージェント):**
 
     ```text
-    Explore possible AI solutions to address [insert problem]. Focus on retrieval-based approaches using Microsoft Copilot, Copilot Studio agents, or connected knowledge sources. Summarize three possible solution approaches, their benefits, and limitations.
+    Explore possible AI solutions to address [insert problem]. Focus on retrieval-based approaches using Microsoft Copilot, Agent builder agents, or connected knowledge sources. Summarize three possible solution approaches, their benefits, and limitations.
     ```
 
     > **ヒント:** エージェントによって知識の検索、再利用、共有が容易になる機会を探します。
@@ -84,32 +84,26 @@ Break down the problem of [insert challenge]. Identify root causes, pain points,
 
 ### タスク 4:エージェントを構築する
 
-次に、**Copilot Studio ライト**でインサイトを得て簡単なモック エージェントを作成します。 検索に重点を置きます。エージェントは、情報の表示、整理、要約に役立つ必要があります。
+次に、分析情報を活用して、**エージェント ビルダー Lite** で単純なモック エージェントを作成します。 検索に重点を置きます。エージェントは、情報の表示、整理、要約に役立つ必要があります。
 
 **手順**:
 
-- **Copilot Studio ライトで始める**
+- **エージェント ビルダー Lite で開始する**
 
     1. ブラウザーを開いて [m365.cloud.microsoft/chat](https://m365.cloud.microsoft/chat) に移動します。
-    1. ナビゲーション ウィンドウで **[エージェントの作成]** を選んで **Copilot Studio** を起動します。
+    1. ナビゲーション ペインで **[新しいエージェント]** を選択して、**エージェント ビルダー**を起動します。
 
-        ![[エージェントの作成] リンクを示すスクリーンショット。](../Prompts/Media/create-agent.png)
+        ![[エージェントの作成] リンクを示すスクリーンショット。](../Demos/Media/new-agent.png)
 
 - **エージェントを定義する ([説明] タブまたは [構成] タブ)**
 
-    1. 利用可能な場合は **[説明]** タブを選んで、次のサンプル プロンプトを使います (または独自のものを記述します)。
+    1. **[作成したいエージェントについて説明してください]** プロンプト ボックスで、エージェントの役割を下書きします。 次に例を示します。  
 
         ```text
         You’re a virtual assistant for our [project/team name]. Your role is to help with [key tasks]. Be concise, stay on-brand, and reference our shared resources when possible.
         ```
 
         ![サンプル プロンプトが入力されたエージェントの説明を示すスクリーンショット。](../Prompts/Media/create-agent-through-describe.png)
-
-        > **注:** 一から始めることも、テンプレートであらかじめ指定されている設定と指示を基にし、それをカスタマイズしてエージェントを作成することもできます。
-
-    1. **[説明]** タブが利用可能な場合は、前の手順は完了しています。 利用できない場合は、**[構成]** タブに切り替えて、名前、説明、エージェントの指示などの同じ詳細を手入力します。
-
-        ![エージェントの構成を示すスクリーンショット。](../Prompts/Media/name-describe-agent.png)
 
 - **エージェントをカスタマイズする**
 
@@ -119,15 +113,15 @@ Break down the problem of [insert challenge]. Identify root causes, pain points,
 
         ![エージェント ビルダーのナレッジ ソース セクションを示すスクリーンショット。](../Prompts/Media/knowledge-sources.png)
 
-    1. 他のユーザーがエージェントを使い始めるのに役立つスターター プロンプトを定義する
+    1. 他のユーザーがエージェントを使い始めるのに役立つ推奨プロンプトを定義する
 
-        ![エージェント ビルダーのスタート プロンプト セクションを示すスクリーンショット。](../Prompts/Media/starter-prompts.png)
+        ![エージェント ビルダーの [推奨プロンプト] セクションを示すスクリーンショット。](../Prompts/Media/starter-prompts.png)
 
-        > **ヒント:** スターター プロンプトは、エージェントとの対話方法についてユーザーをガイドするのに役立ちます。
+        > **ヒント:** 推奨プロンプトは、エージェントとの対話方法についてユーザーをガイドするのに役立ちます。
 
 - **テストして作成する**
 
-    1. **[テスト]** 機能 (エージェント構築プロセス全体を通して、右側のペインで使用可能) を使って、エージェントのドラフト バージョンを試し、問題を修正します。
+    1. **[プレビュー]** 機能 (エージェント構築プロセス全体を通して、右側のペインで使用可能) を使用して、エージェントのドラフト バージョンを試し、問題を修正します。
     2. 問題がなければ、**[作成]** を選んでエージェントを発行します。
     3. エージェントを他のユーザーと共有するか、開いてすぐに使います。  
 

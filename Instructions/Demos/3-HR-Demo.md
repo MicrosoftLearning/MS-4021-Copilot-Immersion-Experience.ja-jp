@@ -7,9 +7,9 @@ demo:
 
 # HR デモ
 
-**シナリオ:**  
+**シナリオ:**
 
-カスタマイズされた職務明細を作成し、履歴書に基づいて候補者を選別し、チームを調整するための採用戦略の下書きを作成することで、UX デザイナーのチームの採用プロセスを効率化します
+あなたは Graphic Design Institute の人事マネージャーとして、新しいシニア アニメーション デザイナーの採用プロセスを開始しました。 Copilot を使用してチームの責任範囲ドキュメントからカスタマイズされた職務明細書を生成し、受け取った履歴書とロールを比較して有力な候補者を絞り込み、次のステップで採用チームにメールでブリーフィングします。
 
 ## デモ セットアップ
 
@@ -33,11 +33,11 @@ demo:
 
 ### Copilot in Word
 
-まず、Copilot in Word に職務明細を生成するように依頼します。
+まず、Copilot in Word に職務明細書を生成するように依頼しましょう。
 
 1. (Web ブラウザーまたはデスクトップ アプリケーションの) Word を開きます。
 
-1. "**書きたい内容を記述してください**" と表示されたプロンプト ボックスに、次のように入力します。
+1. **"Copilot で下書きしたい内容を記述してください"** と表示されたプロンプト ボックスに、次のように入力します。
 
     ```text
     I'm the HR Manager at the Graphic Design Institute. We've currently started the hiring process for a new Senior Animation Designer. Please review the attached document outlining the job responsibilities for this role and generate a detailed job description based on this information.
@@ -59,7 +59,7 @@ demo:
 
 1. 作業モードが選択されていることを確認します。
 
-    ![[Web モード] タブを示すスクリーンショット。](../Prompts/Media/work-mode.png)
+    ![[作業モード] タブを示すスクリーンショット。](../Prompts/Media/work-mode.png)
 
 1. プロンプト ウィンドウで、次のように入力します。
 
@@ -84,12 +84,20 @@ demo:
 
 1. **[新しいメール]** を選択します。
 
-1. リボンの **[Copilot]** を選択します。 ドロップダウン メニューから **[Copilot で下書き]** を選択します。
+1. リボンの右側にある **[Copilot]** アイコンを選択します。
 
-1. "**メールに書きたい内容**" プロンプト ウィンドウで、次のように入力します:
+1. **[Copilot で編集]** が有効になっていることを確認します。
+
+    ![Outlook の [Copilot で編集] トグル。](../Demos/Media/edit-with-copilot-outlook.png)
+
+1. 次のプロンプトを入力します。
 
     ```text
     Please draft an email to the hiring team to share that Nestor Wilke and Patti Fernandez align best with the Senior Animation Designer role based on their qualifications. Include a recommendation to schedule interviews for these candidates and request feedback on next steps.
     ```
+
+## 重要なポイント
+
+1 回のデモで全体の採用段階が進みました。**[Copilot in Word]** でカスタマイズされた職務明細書を生成し、**[Copilot Chat]** で履歴書とロールを比較して候補者を順位付けし、**[Copilot in Outlook]** で採用チームにブリーフィングしました。 通常はやり取りに何日もかかる作業が、集中したエンドツーエンドのワークフローに集約されます。
 
 [インデックスに戻る](https://microsoftlearning.github.io/MS-4021-Copilot-Immersion-Experience/)

@@ -41,7 +41,7 @@ I am preparing for a product launch for [product] and need to gather market rese
 **手順**:
 
 - ブラウザーから Microsoft Word を起動 (アドレス バーに「[word.new](https://word.new)」と入力) するか、デスクトップ アプリケーションを使用します。
-- "**書きたい内容を記述してください**" と表示された場所にプロンプトを入力します。
+- **"Copilot で下書きしたい内容を記述してください"** と表示された場所にプロンプトを入力します。
 
     ![Copilot in Word を示すスクリーンショット。](../Prompts/Media/draft-with-copilot.png)
 
@@ -62,13 +62,15 @@ Using the insights below, draft a brand positioning strategy for [product]. Incl
 
 **手順**:
 
-1. ブラウザーで「[PowerPoint.new](https://PowerPoint.new)」と入力して Microsoft PowerPoint を開くか、デスクトップ アプリケーションを使用します。
+1. ブラウザーの [PowerPoint.new](https://PowerPoint.new) から Microsoft PowerPoint を起動するか、デスクトップ アプリケーションを使用します。
 
-1. 新しい空白のプレゼンテーションを開き、リボンから **Copilot** アイコンを選択します。
+1. 新しい空白のプレゼンテーションを開きます。
 
-    ![リボンの Copilot](../Prompts/Media/copilot-ribbon-powerpoint.png)
+1. プレゼンテーションの右下にある **[Copilot] アイコン**を選択します。
 
-1. Copilot ペインで、[ファイルからプレゼンテーションを作成する] プロンプトを選択します。
+    ![PowerPoint の Copilot アイコン。](../Demos/Media/Open-Copilot-in-PowerPoint.png)
+
+1. [Copilot] ペインで、次のプロンプトを入力します。
 
 **サンプル プロンプト**:  
 

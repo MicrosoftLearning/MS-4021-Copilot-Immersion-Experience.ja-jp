@@ -1,15 +1,15 @@
 ---
 demo:
-  title: Copilot Studio ライトを使用してエージェントを構築する
+  title: エージェント ビルダーを使用してエージェントを構築する
 ---
 
 [インデックスに戻る](https://microsoftlearning.github.io/MS-4021-Copilot-Immersion-Experience/)
 
 ---
 
-# Copilot Studio Lite を使用してエージェントを構築して発行する
+# エージェント ビルダーを使用してエージェントを構築して発行する
 
-このデモでは、Copilot Chat から Copilot Studio ライトを使って仮想アシスタントを構築し、Microsoft 365 Copilot にそれを発行する方法を見ていきます。
+このデモでは、Copilot Chat からエージェント ビルダーを使用して仮想アシスタントを構築し、それを Microsoft 365 Copilot に発行する方法を見ていきます。
 
 ## デモ セットアップ
 
@@ -25,21 +25,23 @@ demo:
 
 ## 話題
 
-Copilot Studio ライトを使うと、カスタム コパイロットを構築し、特定のプロジェクト、部署、またはナレッジ ベースに合わせて調整できます。 それらに個性を与え、境界を設定し、典拠に基づく高品質の応答が得られるよう、特定のドキュメントをフィードすることができます。
+エージェント ビルダーを使用すると、特定のプロジェクト、部署、またはナレッジ ベースに合わせて調整されたカスタム コパイロットを構築できます。 それらに個性を与え、境界を設定し、典拠に基づく高品質の応答が得られるよう、特定のドキュメントをフィードすることができます。
 
 このデモでは、ReleCloud ドローン配送プロジェクト用の仮想アシスタントを作成します。 アシスタントは、ユーザーがアップロードしたすべての情報を把握しており、チームの質問に回答して、時間を節約し、生産性を向上させるのに役立ちます。
 
 ## デモの手順
 
-### ステップ 1 – Copilot Studio ライトに移動する
+### ステップ 1 – エージェント ビルダーに移動する
 
-1. [https://m365.cloud.microsoft/chat](https://m365.cloud.microsoft/chat) に移動し、ナビゲーション ウィンドウで **[エージェントの作成]** を選択します。
+1. [https://m365.cloud.microsoft/chat](https://m365.cloud.microsoft/chat) に移動し、ナビゲーション ウィンドウで **[新しいエージェント]** を選択します。
 
-    ![[エージェントの作成] リンクを示すスクリーンショット。](../Prompts/Media/create-agent.png)
+    ![[新しいエージェント] リンクを示すスクリーンショット。](../Demos/Media/New-agent.png)
 
-1. 資格情報を使用してサインインします。
+1. メッセージが表示されたら、資格情報を使用してサインインします。
 
 ### ステップ 2 – エージェントを定義する
+
+1. **[構成にスキップ]** を選択します。
 
 1. メッセージが表示されたら、次の説明を追加します。
 
@@ -47,7 +49,7 @@ Copilot Studio ライトを使うと、カスタム コパイロットを構築�
     You're a virtual project manager assistant for our drone delivery project. You know everything about the project from the documents we've shared with you, and are happy to help team members get the information they need.
     ```
 
-   ![説明機能を示すスクリーンショット。](../Prompts/Media/create-agent-through-describe.png)
+   ![説明機能を示すスクリーンショット。](../Demos/Media/describe-agent.png)
 
 1. アシスタントの名前を指定します。
 
@@ -73,11 +75,10 @@ Copilot Studio ライトを使うと、カスタム コパイロットを構築�
     Friendly and professional
     ```
 
-> **重要:** 環境によっては、これらのオプションの一部を求められない場合があります。 指定を求められない場合は、Copilot Studio ライトの **[構成]** タブを使ってこの情報を追加できます。
+> **重要:** 環境によっては、これらのオプションの一部を求められない場合があります。 指定を求められない場合は、エージェント ビルダー内の **[構成]** タブを使用してこの情報を追加できます。
 
 ### ステップ 3 – エージェントを構成する
 
-1. **[構成]** を選択してエージェント エディターを開きます。
 1. **[指示]** セクションを確認し、必要に応じて更新します。
 
     ```text
@@ -92,20 +93,22 @@ Copilot Studio ライトを使うと、カスタム コパイロットを構築�
     - **Upselling Opportunities.docx**
     - **Delivery Drone FAQ.docx**
 
-        ![ナレッジ ソースを示すスクリーンショット。](../Prompts/Media/knowledge-sources.png)
+        ![ナレッジ ソースを示すスクリーンショット。](../Demos/Media/knowledge-sources.png)
 
-### ステップ 4 – エージェントをテストする
+### ステップ 4 – エージェントをプレビューする
 
-右側のテスト ペインで、以下の質問をいくつかしてみてください。
+1. **[プレビュー]** タブを選択して、エージェントをテストします。 
 
-- `Tell me about the ReleCloud Delivery Drone.`
-- `How do I fix the drone error code D-101?`
-- `What are the upsell opportunities for ReleCloud?`
-- `What’s the duration of Phase 1 of the delivery drone project?`
+1. 右側のテスト ペインで、以下の質問をいくつかしてみてください。
 
-> **重要:**  エージェントがドキュメントを処理して正確な回答を提供するまで、時間がかかる場合があります。 エラー メッセージが表示される場合は、数分待ってからやり直してください。
+    - `Tell me about the ReleCloud Delivery Drone.`
+    - `How do I fix the drone error code D-101?`
+    - `What are the upsell opportunities for ReleCloud?`
+    - `What’s the duration of Phase 1 of the delivery drone project?`
 
-> **ヒント:** エージェントが稼働するようになったら、Microsoft Teams からテストすることもできます。
+    > **重要:**  エージェントがドキュメントを処理して正確な回答を提供するまで、時間がかかる場合があります。 エラー メッセージが表示される場合は、数分待ってからやり直してください。
+
+    > **ヒント:** エージェントが稼働するようになったら、Microsoft Teams からテストすることもできます。
 
 ### ステップ 5 – 発行して共有する
 

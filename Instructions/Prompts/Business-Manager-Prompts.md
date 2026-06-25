@@ -43,16 +43,17 @@ Summarize my recent interactions with [/Name of Person] regarding [specific topi
 1. 前のタスクの **[Copilot Chat の応答]** で、**[Pages で編集]** を選択します。  
    ![Copilot in Pages を示すスクリーンショット。](../Prompts/Media/edit_in_pages.png)
 
-2. 開いた新しい Pages 画面で、**[すべてのページを表示]** を選択します。  
-   ![Copilot in Pages を示すスクリーンショット。](../Prompts/Media/view-all-pages.png)
-
-3. 新しい Pages ウィンドウで、ドキュメントの右側にある **Copilot アイコン**を選択して Copilot と対話します。
+1. 新しい Pages ウィンドウが開き、Copilot Chat のコンテンツが表示されます。 次のプロンプトをコピーして左側のプロンプト ボックスに貼り付けるか、自分でプロンプトを作成します。
 
 **サンプル プロンプト**:
 
 ```text
 Using these insights, draft talking points for an upcoming stakeholder meeting. Focus on progress updates, key dates, challenges and next steps. 
 ```
+
+1. 次のタスクで使用するためにページ リンクをコピーします。 ページを共有するには、ページの右上にある **[共有]** ボタンを選択し、**[ページ リンク]** を選択します。
+
+    ![Copilot in Pages でページへのリンクをコピーする方法を示すスクリーンショット。](../Prompts/Media/share-pages.png)
 
 > **ヒント:**  
 > - Pages は、同僚とリアルタイムで共同作業するためのコラボレーション スペースとして使用できます。 "@" 記号の後に同僚の名前を入力して、ページを共有します。
@@ -64,14 +65,18 @@ Using these insights, draft talking points for an upcoming stakeholder meeting. 
 
 **手順**:
 
-- **Outlook** で **[新しいメール]** を選択し、リボンから **[Copilot]**、**[Copilot で下書き]** の順に選択します。
+1. **[新しいメール]** を選択します。
 
-    ![Copilot in Outlook を示すスクリーンショット。](../Prompts/Media/copilot-outlook-desktop.png)
+1. リボンの右側にある **[Copilot]** アイコンを選択します。
+
+1. **[Copilot で編集]** が有効になっていることを確認します。
+
+    ![Outlook の [Copilot で編集] トグル。](../Demos/Media/edit-with-copilot-outlook.png)
 
 **サンプル プロンプト**:
 
 ```text
 Using the insights below, draft a follow-up email to [Name of Person] requesting an update on progress and next steps. Also, ask for a follow-up meeting to discuss further on the project deadline. 
 
-[Paste insights from Copilot Chat here, or add your own insights]
+[Paste page link from Copilot in Pages here]
 ```

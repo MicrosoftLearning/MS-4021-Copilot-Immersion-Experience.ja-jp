@@ -43,9 +43,15 @@ Summarize my recent interactions with [/Name of Person] regarding [specific cust
 
 **手順**:
 
-- **Outlook** で **[新しいメール]** を選択し、リボンから **[Copilot]**、**[Copilot で下書き]** の順に選択します。
+1. **[新しいメール]** を選択します。
 
-    ![Copilot in Outlook を示すスクリーンショット。](../Prompts/Media/copilot-outlook-desktop.png)
+1. リボンの右側にある **[Copilot]** アイコンを選択します。
+
+1. **[Copilot で編集]** が有効になっていることを確認します。
+
+    ![Outlook の [Copilot で編集] トグル。](../Demos/Media/edit-with-copilot-outlook.png)
+
+1. [Copilot] ペインで、次のプロンプトを入力します。
 
 **サンプル プロンプト**:
 
@@ -62,7 +68,7 @@ Using the insights below, draft a follow-up email to [Name of Person] highlighti
 **手順**:
 
 - ブラウザーの [word.new](https://word.new) から Microsoft Word を起動するか、デスクトップ アプリケーションを使用します。
-- "**書きたい内容を記述してください**" と表示された場所にプロンプトを入力します。
+- **"Copilot で下書きしたい内容を記述してください"** と表示された場所にプロンプトを入力します。
 
     ![Copilot in Word を示すスクリーンショット。](../Prompts/Media/draft-with-copilot.png)
 

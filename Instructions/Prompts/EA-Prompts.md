@@ -50,9 +50,13 @@ Copilot in Outlook を使用して、最近のトピックまたはディスカ�
 
 **手順**:
 
-- **Outlook** で **[新しいメール]** を選択し、リボンから **[Copilot]**、**[Copilot で下書き]** の順に選択します。
+1. **[新しいメール]** を選択します。
 
-    ![Copilot in Outlook を示すスクリーンショット。](../Prompts/Media/copilot-outlook-desktop.png)
+1. リボンの右側にある **[Copilot]** アイコンを選択します。
+
+1. **[Copilot で編集]** が有効になっていることを確認します。
+
+    ![Outlook の [Copilot で編集] トグル。](../Demos/Media/edit-with-copilot-outlook.png)
 
 **サンプル プロンプト**:
 

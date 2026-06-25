@@ -59,7 +59,7 @@ What are some creative post ideas for promoting a [product or idea]? Focus on en
 **手順**:
 
 - ブラウザーの [word.new](https://word.new) から Microsoft Word を起動するか、デスクトップ アプリケーションを使用します。
-- "**書きたい内容を記述してください**" と表示された場所にプロンプトを入力します。
+- **"Copilot で下書きしたい内容を記述してください"** と表示された場所にプロンプトを入力します。
 
     ![Copilot in Word を示すスクリーンショット。](../Prompts/Media/draft-with-copilot.png)
 

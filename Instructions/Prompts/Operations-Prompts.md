@@ -45,7 +45,7 @@ Compare three leading suppliers for [product/service] in [select your industry].
 **Copilot in Word** を使用して、サプライヤー移行プロセス、期待される利益、主要なリスクの概要を説明する構造化された計画の下書きを作成します。 計画には、切り替えの正当な理由、移行のタイムライン、関係者に関する考慮事項が必ず含まれるようにします。  
 
 - ブラウザーから Microsoft Word を起動 (アドレス バーに「[word.new](https://word.new)」と入力) するか、デスクトップ アプリケーションを使用します。
-- "**書きたい内容を記述してください**" と表示された場所にプロンプトを入力します。
+- **"Copilot で下書きしたい内容を記述してください"** と表示された場所にプロンプトを入力します。
 
     ![Copilot in Word を示すスクリーンショット。](../Prompts/Media/draft-with-copilot.png)
 
@@ -54,6 +54,8 @@ Compare three leading suppliers for [product/service] in [select your industry].
 ```text
 Based on the supplier research from [Paste in shared Word document link from Task 1], draft a Supplier Transition Plan outlining why [Company] is switching to [Supplier X]. Include key benefits, a transition timeline, and potential risks.
 ```
+
+- 次のタスクで使用するために、ドキュメントを保存します。 ドキュメントから共有 URL をコピーします (自動保存を有効にし、メッセージが表示されたら OneDrive アカウントを選択します)。
 
 > **注:** [Company] を所属組織に置き換え、[Supplier X] を選択したサプライヤーに置き換えます。 ビジネス ニーズに合わせて詳細を調整します。
 
@@ -65,16 +67,22 @@ Based on the supplier research from [Paste in shared Word document link from Tas
 
 **手順**:
 
-- **Outlook** で **[新しいメール]** を選択し、リボンから **[Copilot]**、**[Copilot で下書き]** の順に選択します。
+1. **[新しいメール]** を選択します。
 
-    ![Copilot in Outlook を示すスクリーンショット。](../Prompts/Media/copilot-outlook-desktop.png)
+1. リボンの右側にある **[Copilot]** アイコンを選択します。
+
+1. **[Copilot で編集]** が有効になっていることを確認します。
+
+    ![Outlook の [Copilot で編集] トグル。](../Demos/Media/edit-with-copilot-outlook.png)
+
+1. [Copilot] ペインで、次のプロンプトを入力します。
 
 **サンプル プロンプト**:
 
 ```text
 Write an internal email to my team announcing a potential supplier transition to [Supplier X] using the key points below:
 
-[Summarized key points from the Supplier Transition Plan]
+[Summarized key points from the Supplier Transition Plan or paste the shared link to the Word document with the full plan]
 ```
 
 > **注:** [Supplier X] を選定したサプライヤーに置き換え、社内の対象者に合わせてメッセージを調整します。

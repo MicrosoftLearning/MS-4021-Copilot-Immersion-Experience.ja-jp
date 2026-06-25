@@ -41,7 +41,7 @@ Pull a list of [Microsoft 365] features releasing in the next 90 days
 **手順**:
 
 - ブラウザーから Microsoft Word を起動 (アドレス バーに「[word.new](https://word.new)」と入力) するか、デスクトップ アプリケーションを使用します。
-- "**書きたい内容を記述してください**" と表示された場所にプロンプトを入力します。
+- **"Copilot で下書きしたい内容を記述してください"** と表示された場所にプロンプトを入力します。
 
     ![Copilot in Word を示すスクリーンショット。](../Prompts/Media/draft-with-copilot.png)
 
@@ -59,8 +59,9 @@ Draft a post about the upcoming features in [Microsoft 365: (list of features)].
 
 **手順**:
 
-- 新しいブラウザー タブを開き、[forms.office.com]https://forms.office.com/ に移動します。
-- 画面の左上隅にある **[新しいフォーム]** を選択します。
+- 新しいブラウザー タブを開き、[forms.cloud.microsoft.com](https://forms.cloud.microsoft.com/) に移動します
+- 提示されたオプションには **[フィードバック]** シナリオを選択します。
+- **[Copilot を使って下書き]** を選択します。
 
 **サンプル プロンプト**:
 
