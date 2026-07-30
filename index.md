@@ -11,7 +11,7 @@ layout: home
 {% assign demos = site.pages | where_exp:"page", "page.url contains '/Instructions/Demos'" %}
 | Demo |
 | --- |
-{% for activity in demos %}| [{{ activity.demo.title }}]({{ site.github.url }}{{ activity.url }}) |
+{% for activity in demos  %}| [{{ activity.demo.title }}]({{ site.github.url }}{{ activity.url }}) |
 {% endfor %}
 
 ## Exec デモ
@@ -24,7 +24,7 @@ layout: home
 
 ## 没入体験のサンプル プロンプト
 
-#### [幹部](https://learn.microsoft.com/en-us/training/modules/envision-new-ideas-with-microsoft-365-copilot/) (Microsoft Learn へのリダイレクト)
+#### [役員](https://microsoftlearning.github.io/MS-4021-Copilot-Immersion-Experience/Instructions/Prompts/Exec-immersion.html)
 
 #### [通信](https://microsoftlearning.github.io/MS-4021-Copilot-Immersion-Experience/Instructions/Prompts/Communications-Prompts.html)
 
